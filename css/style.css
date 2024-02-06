@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+h6,{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
 img{
     width: 100%;
     min-height: 400px;
@@ -23,7 +28,7 @@ a{
 
 /* LAYOUT */
 .container{
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -34,7 +39,7 @@ a{
 }
 
 .col33{
-    width: calc(3 * 100% / 12);
+    width: calc(4 * 100% / 12);
 }
 
 .eco, .discount{
@@ -67,7 +72,7 @@ a{
     top: 10px;
 
 }
-/* Tentativi */
+
 .photo-header{
     padding: 0 10px;
     position: relative;
@@ -92,4 +97,12 @@ a{
 
 .description{
     padding: 0 10px;
+}
+/* Tentativi */
+.photo.product{
+    margin-bottom: 10px;
+}
+
+.eco-green-left0{
+    left: 10px;
 }
