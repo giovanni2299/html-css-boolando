@@ -21,6 +21,7 @@ ul,ol menu{
 
 a{
     text-decoration: none;
+    color: currentColor;
 }
 
 /* /Fine RESET */
@@ -35,6 +36,49 @@ a{
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+header{
+    background-color: orange;
+    color: white;
+}
+
+.row .logo{
+    display: flex;
+    width: 90px;
+}
+
+.row>ul{
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.row-header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+
+.title-footer{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font:bold;
+}
+
+.col50>ul{
+    gap: 6px;
+    font-size: 10px;
+    display: flex;
 }
 
 .col33{
@@ -68,7 +112,6 @@ a{
     position: absolute;
     right: 10px;
     top: 10px;
-
 }
 
 .photo-header{
