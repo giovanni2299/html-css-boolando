@@ -1,0 +1,16 @@
+/*  Inizio RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+ul,ol menu{
+    list-style: none;
+}
+
+/* /Fine RESET */
