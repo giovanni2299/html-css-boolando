@@ -78,6 +78,14 @@ a{
     
 }
 
+.photo-header:hover .second-image{
+    display: inline-block;
+}
+
+.photo-header:hover .main-image{
+    display:none;
+}
+
 .brand, .old-price, .new-price{
     font-size: 10px;
 }
@@ -101,13 +109,9 @@ a{
 .photo.product{
     margin-bottom: 20px;
 }
-.col33 .photo.product .photo-header .overlay{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    
+
+.second-image{
+    display: none;
 }
 
 .eco-green-left0{
