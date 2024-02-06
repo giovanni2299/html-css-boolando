@@ -7,6 +7,8 @@
 
 img{
     width: 100%;
+    min-height: 400px;
+    object-fit: cover;
 }
 
 ul,ol menu{
@@ -44,7 +46,7 @@ a{
 .discount-red{
     background-color: red;
     position: absolute;
-    left: 0;
+    left: 10px;
     bottom: 20px;
     
 }
@@ -52,21 +54,23 @@ a{
 .eco-green{
     background-color: green;
     position: absolute;
-    left: 35px;
+    left: 45px;
     bottom: 20px;
 }
 
 .interest{
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px;
     background-color: white;
     position: absolute;
-    right: 0;
+    right: 10px;
     top: 10px;
 
 }
 /* Tentativi */
 .photo-header{
+    padding: 0 10px;
     position: relative;
     
 }
+
