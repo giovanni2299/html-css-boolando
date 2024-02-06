@@ -74,3 +74,22 @@ a{
     
 }
 
+.brand, .old-price, .new-price{
+    font-size: 10px;
+}
+
+.brand, .old-price{
+    color: gray;
+}
+
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.description{
+    padding: 0 10px;
+}
