@@ -43,7 +43,7 @@ header{
     color: white;
 }
 
-.row .logo{
+.row .logo-container{
     display: flex;
     width: 90px;
 }
