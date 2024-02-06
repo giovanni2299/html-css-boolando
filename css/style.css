@@ -47,19 +47,25 @@ a{
     padding: 2px 4px;
 }
 
-.discount-red{
-    background-color: red;
+.container-info{
     position: absolute;
     left: 10px;
     bottom: 20px;
+}
+
+.discount-red{
+    background-color: red;
+    /* position: absolute;
+    left: 10px;
+    bottom: 20px; */
     
 }
 
 .eco-green{
     background-color: green;
-    position: absolute;
+    /* position: absolute;
     left: 45px;
-    bottom: 20px;
+    bottom: 20px; */
 }
 
 .interest{
